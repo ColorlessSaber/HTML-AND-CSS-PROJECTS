@@ -1,0 +1,11 @@
+p {
+	color: black;
+	background: lightblue;
+	font-weight: bold;
+	text-align: center;
+}
+.shadow_text {
+	font-size: 20px;
+	text-shadow: 1px 1px 5px red;
+	background: white;
+}

@@ -1,0 +1,29 @@
+table {
+	border: 1px solid black
+}
+
+td:hover {
+	background-color: lightblue;
+	color: black;
+}
+
+tr, th {
+	background-color: white;
+	color: black;
+	text-align: center
+}
+
+tr, td {
+	background-color: lightgrey;
+	color: black
+	text-align: center
+}
+.first_place {
+	background-color: green
+}
+.second_place {
+	background-color: yellow
+}
+.third_place {
+	background-color: red
+}
