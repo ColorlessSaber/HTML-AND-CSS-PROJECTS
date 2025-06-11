@@ -42,6 +42,7 @@ a:hover{
     in the same spot in the browser screen*/
     top: 0; /*Tells the browser to stick the element at the
     top of the page based on user scrolling*/
+    z-index: 9; /* Set the stack layer of the navbar to scroll over all other stuff*/
 }
 
 /*Creates line under the Home and Contact Links to seperate
@@ -96,11 +97,87 @@ to a specific HTML element*/
     animation: color-text 4s;
 }
 
-/*BODY CONECT*/
+/*BODY content*/
 img {
     width: 500px;
     height: 350px;
     border-radius: 10px;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,19);
+}
+
+.column {
+    float: left;
+    width: 48%; /*Places the images side by side when the flaot property is used*/
+    padding: 10px;
+}
+
+/*Groups element sinside a dic element together and foces any floating elment outside of the
+div under it with this class selector*/
+.container {
+    background-size: 100% !important;
+    margin: 0px -60px 50px -40px;
+    padding-top: 5px; /*Padding will add inline space so the elements don't sit on the edge of the div*/
+    padding-bottom: 10px;
+}
+
+/*THis is part of hte .container class selector format the elements to display in a table like format*/
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Sets up the size of each div that holds an image so the image can be centered*/
+.image-container{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/*Sets the background color in eahc div with a image and specifies which ones by the use of the id names
+for each image*/
+#cat {
+    background-color: #d7eaf7;
+}
+
+#dog {
+    background-color: #c3e0c5;
+}
+
+#rabbit {
+    background-color: #c3e0c5;
+}
+
+#guineapig {
+    background-color: #d7eaf7;
+}
+
+#fish {
+    background-color: #d7eaf7;
+}
+
+#reptile {
+    background-color: #c3e0c5;
+}
+
+/*Sets up the properties for the overlay on each image*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(0,0,0);
+    opacity: 0;
+}
+/*The :hover pseudo-class tiggers the overlay lcass to 60% opacity when a user hovers their mouse over an
+image*/
+.overlay:hover{
+    opacity: 0.6;
 }
