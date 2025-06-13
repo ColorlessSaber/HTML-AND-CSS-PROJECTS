@@ -368,12 +368,11 @@ form{
 form input{
     font-family: 'Courier New', 'Courier New', Courier, monospace;
     font-size: 15px;
-    color: 15px;
+    color: rgb(165,165,165);
     border: 2px solid rgb(165,165,165);
     border-radius: 5px;
     padding: 3px;
-    margin: 10px 15px 10px 0px; /*The margin order is top, right, bottom, left. The negative margins
-    will stretch the background beyond the edge of the browser screen*/
+    margin: 10px 15px 10px 0px; /*The margin order is top, right, bottom, left.*/
     transition: 0.3 ease-out; /*Transitions back to light gray when a user clicks away from an input field*/
 }
 
