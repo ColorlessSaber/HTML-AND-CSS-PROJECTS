@@ -1,0 +1,249 @@
+/*Import link for EXO 2 font from fonts.google.com. This font is used for paragraphs, tables content and form,*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Import link for Michroma font from fonts.google.com. This font is used for headers, table headers, anchors, and footer*/
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+html {
+    overflow-x: hidden;
+    /*Disables the left-to-right scroll bar from displaying in browser due to negative margin values*/
+    scroll-behavior: smooth;
+    /*Makes it so its a smooth scrolling when clicking on a bookmark on webpage*/
+}
+
+/*Navbar*/
+.nav-bar {
+    position: sticky;
+    /*Keeps the position in the same location relative to the scroll bar*/
+    top: 0;
+    /*Places the navbar at the top*/
+    z-index: 4;
+    /*Sets the position of the navbar to be on the 4-layer (top most layer) in the layer stack*/
+}
+
+ul{
+    display: flex;
+    /*Will allow the list to expand or shrink the elements to fill the space available to them, and place them horizontally*/
+    list-style-type: none;
+    /*Removes the default list style*/
+    align-items: center;
+    margin: -8px -8px 0px -8px;
+    /*Margin order: top, right, bottom, left. The negative margins will strech the background past the edge of the browser screen*/
+    background-color: rgb(194,178,128);
+}
+
+a{
+    display: inline-block;
+    /*Places anchor elements vertically on a new line.*/
+    font-family: "Michroma", sans-serif;
+    /*Font from fonts.google.com*/
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    /*Removes the underline from link*/
+}
+
+a:hover{
+    background-color: rgb(196, 168, 87);
+    color: white;
+    box-shadow: 0px 5px rgb(0,0,0,0.6);
+    /*box-shadow: h-offset, v-offset, color*/
+}
+
+a:focus{
+    outline: 2px solid brown;
+}
+
+/*Footer*/
+footer{
+    align-items: center;
+    margin: -8px -8px 0px -8px;
+    /*Margin order: top, right, bottom, left. The negative margins will strech the background past the edge of the browser screen*/
+    background-color: rgb(194,178,128);
+    bottom: 0;
+    /*Places the footer at the bottom of the screen*/
+}
+
+footer table{
+    width: 100%;
+    /*Makes the table take up the full width of the browser screen*/
+}
+footer td{
+    padding-left: 40px;
+}
+
+footer td p{
+    font-family: "Exo 2", sans-serif;
+    /*Font from fonts.google.com*/
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+}
+
+/*Headers*/
+h1, h2, h3{
+    font-family: "Michroma", sans-serif;
+    /*Font from fonts.google.com*/
+    color: black;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 20px;
+}
+
+/*Paragpraphs*/
+p{
+    font-family: "Exo 2", sans-serif;
+    /*Font from fonts.google.com*/
+    text-align: center;
+}
+
+/*images and video*/
+iframe{
+    display: table;
+    margin: auto;
+    border: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*The display and margins help center the image in the center*/
+    width: 50%;
+    height: auto;
+    border: none;
+    padding-top: 10px;
+}
+
+/*Up and Coming Race Table*/
+#coming-races table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#coming-races th{
+    font-family: "Michroma", sans-serif;
+    /*Font from fonts.google.com*/
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+#coming-races td{
+    font-family: "Exo 2", sans-serif;
+    /*Font from fonts.google.com*/
+    text-align: center;
+    border: 1px solid;
+}
+
+/*Contact Form*/
+form{
+    display: table;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /*The auto left and right margin lets the browser automatically calculate the margins to center the form on the screen*/
+    margin-bottom: 20px;
+}
+
+label{
+    font-family: "Exo 2", sans-serif; /*Font from fonts.google.com*/
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+/*Only effectst he input tags within the form tags*/
+input[type="text"]{
+    font-family: "Exo 2", sans-serif;
+    /*Font from fonts.google.com*/
+    font-size: 15px;
+    width: 175px;
+    color: rgb(165,165,165);
+    border: 2px solid rgb(165,165,165);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 10px 5px 0px;
+    /*Margin order: top, right, bottom, left.*/
+    transition: 0.3s ease-out;
+}
+
+input[type="text"]:focus{
+    color: black;
+    border: 2px solid rgb(196, 168, 87);
+    outline: none;
+    /*Removes the default border when the focus is triggered*/
+    transition: 0.3s ease-out;
+}
+
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px 12px 0px;
+    /*Margin order: top, right, bottom, left.*/
+}
+
+input[type="submit"]{
+    font-family: "Exo 2", sans-serif;
+    /*Font from fonts.google.com*/
+    font-size: 15px;
+}
+
+textarea{
+    font-family: "Exo 2", sans-serif;
+    /*Font from fonts.google.com*/
+    font-size: 15px;
+    color: rgb(165,165,165);
+    border: 2px solid rgb(165,165,165);
+    border-radius: 5px;
+    width: 100%;
+    height: 75px;
+    resize: both; 
+    /*Allows user to resize the text area*/
+    transition: 0.3s ease-out;
+}
+
+textarea:focus{
+    border: 2px solid rgb(196, 168, 87);
+    color: black;
+    outline: none;
+    /*Removes the default border when the focus is triggered*/
+    transition: 0.3s ease-out;
+}
+
+input[type="submit"]{
+    background-color: rgb(194,178,128);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 11px;
+    transition: 0.3s ease-out;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(186, 178, 151);
+    color: white;
+    padding: 11px;
+    transition: 0.3s ease-out;
+}
