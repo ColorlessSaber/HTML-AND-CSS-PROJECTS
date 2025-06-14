@@ -260,3 +260,43 @@ input[type="number"]:focus{
     outline: 0;
     /*Removes the default outline set by the browser*/
 }
+
+/*CONTACT FORM*/
+
+.form-control{
+    border: 3px solid var(--main-color);
+    transition: 1s ease;
+}
+
+/*Overrides Bootstrap's focus effect*/
+.form-control:focus{
+    color: #212529;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0px .25rem var(--main-color);
+}
+
+/*Adjust the contact form submit button to the right side of the screen*/
+#contact-submit{
+    float: right;
+}
+
+/*FOOTER*/
+footer{
+    border-top: 5px solid var(--main-color);
+    background-color: rgba(0,0,0,0.6);
+    margin: 0px -15px 0px -15px;
+    /*Extends the footer beyond the webpage on the left and right sidees leaving no white space*/
+}
+
+.footer-text{
+    font-family: var(--main-font-family);
+    color: var(--accent-text-color);
+    font-size: 30px;
+}
+
+/*Specifically styles the footer image sperate from the other images on the page and overrides the img type
+selector styling*/
+.footer-img{
+    width: auto;
+    height: 130px;
+}
