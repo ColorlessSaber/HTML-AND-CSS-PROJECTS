@@ -64,12 +64,12 @@ A challenge to built a single page website of a subject of my choice using HTML 
 is Star Wars Podracing. It has a table for up and coming races, an article section of who won the last race, photos of past races, and a form to sign up to be a Podracer for a coming up race.
 
 ### Simple Recipes
-The focus of this single page website is utilize CSS's animations to give the site some affects and the @media to change the elements when
+The focus of this single page website is utilizing CSS's animations to give the site some affects and the @media to change the elements when
 the screen reaches a certain size.
 
 ### The Pet Shop Website
-A two page website that used the basics of HTML and CSS. It introduced how to use CSS to stylize the web pages, and learning how to link
-two pages togather. 
+A two page website that used the basics of HTML and CSS. It introduced how to use CSS to stylize the web pages, and how to link
+two pages together. 
 
 ### Misc. Projects
 The remaining projects in the repo--HTML documents, basic-HTML-and-CSS, basic-HTML-and-JavaScript-1, creating-css-effects, and introduction-to-bootstrap--contain scripts of me learning how to use HTML, CSS, brief introduction to using JavaScripts in HTML, and
