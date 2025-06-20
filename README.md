@@ -95,6 +95,7 @@ Please head to my porfolio website and use the contact form to reach out to me:
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [Img Shields](https://shields.io)
+* [The Tech Academy](tech-academy-url)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,3 +123,4 @@ Please head to my porfolio website and use the contact form to reach out to me:
 [bootstrap-url]: https://getbootstrap.com
 
 [portfolio-url]: https://colorlesssaber.github.io/
+[tech-academy-url]: https://www.learncodinganywhere.com/
