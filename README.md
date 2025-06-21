@@ -85,7 +85,7 @@ Distributed under the MIT License. See 'LICENSE.txt' for more information.
 
 <!-- Conact -->
 ## Contact
-Please head to my porfolio website and use the contact form to reach out to me:
+Please head to my portfolio website and use the contact form to reach out to me:
 [My Portfolio Website][portfolio-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
