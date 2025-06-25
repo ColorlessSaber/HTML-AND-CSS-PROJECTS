@@ -37,8 +37,8 @@
 
 <!-- About the Repo -->
 ## About the Repo
-The repository contains Tech Academy projects involving programming languages HTML and CSS. A little JavaScript was used, but
-the main focus was learning and using HTML and CSS, along with getting an introduction to Bootstrap.
+The repository contains Tech Academy projects involving programming languages HTML and CSS, including learning Bootstrap.
+Later on, JavaScript was added to the "Simple Recipes" website to make it more dynamic.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ is Star Wars Podracing. It has a table for up and coming races, an article secti
 
 ### Simple Recipes
 The focus of this single page website is utilizing CSS's animations to give the site some affects and the @media to change the elements when
-the screen reaches a certain size.
+the screen reaches a certain size. JavaScript was used to make pop recipe cards and validate the form fill out.
 
 ### The Pet Shop Website
 A two page website that used the basics of HTML and CSS. It introduced how to use CSS to stylize the web pages, and how to link
