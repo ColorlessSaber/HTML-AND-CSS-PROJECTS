@@ -14,13 +14,16 @@ for (var i = 0; i < btns.length; i++) {
     btns[i].onclick = function(event) {
         let modal = document.querySelector(event.target.getAttribute("href"));
         modal.style.display = 'block';
+
+        // After 10 seconds of being opened, close the modal
+        setTimeout(function () {modal.style.display = "none";}, 10000);
     }
 }
 
 // When user clicks on <span> (x), close the modal
 for (var i = 0; i < closeBtn.length; i++) {
     closeBtn[i].onclick = function () {
-        for ( var index in modals) {
+        for (var index in modals) { // Loop through all modals and set their display to "none"
             if (modals[index].style) {
                 modals[index].style.display = "none";
             }
