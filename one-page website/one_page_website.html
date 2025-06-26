@@ -7,6 +7,7 @@
     <meta name="description" content="Pod Racing Home Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/one_page_website.css">
+    <script src="./js/one_page_website.js" defer></script>
 </head>
 
 <body>
@@ -79,7 +80,8 @@
     <section>
         <div id="winner">
             <h2>Winner of Last Podracing</h2>
-            <img src="images/anakin.jpg" alt="Anakin Skywalker in his podracer">
+            <img src="images/anakin.jpg" alt="Anakin Skywalker in his podracer" class="hover-shadow"
+                onclick="openModal();currentSlide(1)">
             <p>
                 The winner of the Boota Eve Classic is: Anakin Skywalker!<br>
                 The first human to win a Podrace in 7 years! Not only that, <br>
@@ -91,9 +93,12 @@
     <section>
         <div id="pictures">
             <h2>Pictures of Past Races</h2>
-            <img src="images/start_of_race.jpeg" alt="Podracers lined up for the race to start">
-            <img src="images/race_shot.jpg" alt="An epic shot of Anakin avoiding a crashing podracer">
-            <img src="images/pod_racer.jpg" alt="A full shot of a podracer">
+            <img src="images/start_of_race.jpeg" alt="Podracers lined up for the race to start" class="hover-shadow"
+                onclick="openModal();currentSlide(2)">
+            <img src="images/race_shot.jpg" alt="An epic shot of Anakin avoiding a crashing podracer"
+                class="hover-shadow" onclick="openModal();currentSlide(3)">
+            <img src="images/pod_racer.jpg" alt="A full shot of a podracer" class="hover-shadow"
+                onclick="openModal();currentSlide(4)">
         </div>
     </section>
     <!--SIGN UP FORM-->
@@ -139,6 +144,53 @@
             </tr>
         </table>
     </footer>
+    <!--MODAL/LIGHTBOX-->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <!--The slides-->
+            <div class="mySlides">
+                <div class="numberText">1/4</div>
+                <img src="./images/anakin_small.jpg" style="width:75%">
+            </div>
+            <div class="mySlides">
+                <div class="numberText">2/4</div>
+                <img src="./images/start_of_race_small.jpg" style="width:75%">
+            </div>
+            <div class="mySlides">
+                <div class="numberText">3/4</div>
+                <img src="./images/race_shot_small.jpg" style="width:75%">
+            </div>
+            <div class="mySlides">
+                <div class="numberText">4/4</div>
+                <img src="./images/pod_racer_small.jpg" style="width:75%">
+            </div>
+
+            <!--Next/Previous controls-->
+            <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+            <!--Caption text-->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!--Thumbnail image controls-->
+            <div class="column">
+                <img class="demo" src="./images/anakin.jpg" onclick="currentSlide(1)" alt="Anakin Skywalker in his podracer">
+            </div>
+            <div class="column">
+                <img class="demo" src="./images/start_of_race.jpeg" onclick="currentSlide(2)" alt="Podracers lined up for the race to start">
+            </div>
+            <div class="column">
+                <img class="demo" src="./images/race_shot.jpg" onclick="currentSlide(3)" alt="An epic shot of Anakin avoiding a crashing podracer">
+            </div>
+            <div class="column">
+                <img class="demo" src="./images/pod_racer.jpg" onclick="currentSlide(4)" alt="A full shot of a podracer">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

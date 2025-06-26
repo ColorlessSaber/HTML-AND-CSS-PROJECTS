@@ -38,7 +38,7 @@
 <!-- About the Repo -->
 ## About the Repo
 The repository contains Tech Academy projects involving programming languages HTML and CSS, including learning Bootstrap.
-Later on, JavaScript was added to the "Simple Recipes" website to make it more dynamic.
+Later on, JavaScript was added to the "Simple Recipes" and "One-Page" website to make it more dynamic.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,6 +62,7 @@ the elements when viewed on a smaller screen.
 ### One Page Website
 A challenge to built a single page website of a subject of my choice using HTML and CSS only. The subject for the website that I choose
 is Star Wars Podracing. It has a table for up and coming races, an article section of who won the last race, photos of past races, and a form to sign up to be a Podracer for a coming up race.
+Later in the bootcamp course, JavaScript was added to create a LightBox for the photos.
 
 ### Simple Recipes
 The focus of this single page website is utilizing CSS's animations to give the site some affects and the @media to change the elements when
