@@ -177,6 +177,12 @@ img{
     padding-top: 15px;
 }
 
+/*INFO SECTION*/
+.accordion-header {
+    font-family: var(--main-font-family);
+    font-size: 30px;
+}
+
 /*BUTTONS*/
 /*Creates the main styling for buttons that contain the Bootstrap .btn class*/
 .btn{
