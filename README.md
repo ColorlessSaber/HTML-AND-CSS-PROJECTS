@@ -38,7 +38,7 @@
 <!-- About the Repo -->
 ## About the Repo
 The repository contains Tech Academy projects involving programming languages HTML and CSS, including learning Bootstrap.
-Later on, JavaScript was added to the "Simple Recipes" and "One-Page" website to make it more dynamic.
+Later on, JavaScript was added to the "Simple Recipes", "One-Page", and "Academy-Cienemas" websites to make it more dynamic.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,18 +55,15 @@ Later on, JavaScript was added to the "Simple Recipes" and "One-Page" website to
 <!-- Projects under repo -->
 ## Projects Under Repo
 ### Academy Cinemas
-A website that heavily utilized Bootstrap to create a single webpage about movies playing at a local movie theater and buying tickets.
-A custom CSS file was created to override Bootstrap's default choices to elements, and another CSS file was created to make changes to
-the elements when viewed on a smaller screen.
+A website that heavily utilized Bootstrap to create a single webpage about movies playing at a local movie theater and buying tickets. A custom CSS file was created to override Bootstrap's default choices to elements, and another CSS file was created to make changes to the elements when viewed on a smaller screen.<br>
+At a later point in the bootcamp, JavaScript was added to utilize Bootstrap's popups and toasts.
 
 ### One Page Website
-A challenge to built a single page website of a subject of my choice using HTML and CSS only. The subject for the website that I choose
-is Star Wars Podracing. It has a table for up and coming races, an article section of who won the last race, photos of past races, and a form to sign up to be a Podracer for a coming up race.
+A challenge to built a single page website of a subject of my choice using HTML and CSS only. The subject for the website that I choose is Star Wars Podracing. It has a table for up and coming races, an article section of who won the last race, photos of past races, and a form to sign up to be a Podracer for a coming up race.<br>
 Later in the bootcamp course, JavaScript was added to create a LightBox for the photos.
 
 ### Simple Recipes
-The focus of this single page website is utilizing CSS's animations to give the site some affects and the @media to change the elements when
-the screen reaches a certain size. JavaScript was used to make pop recipe cards and validate the form fill out.
+The focus of this single page website is utilizing CSS's animations to give the site some affects and the @media to change the elements when the screen reaches a certain size. JavaScript was used to make pop recipe cards and validate the form fill out.
 
 ### The Pet Shop Website
 A two page website that used the basics of HTML and CSS. It introduced how to use CSS to stylize the web pages, and how to link
