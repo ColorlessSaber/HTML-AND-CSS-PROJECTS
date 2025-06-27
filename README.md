@@ -49,6 +49,7 @@ Later on, JavaScript was added to the "Simple Recipes", "One-Page", and "Academy
 * [![Bootstrap][bootstrap-shield]][bootstrap-url]
 * [![JavaScript][javascript-shield]][javascript-url]
 * [![Node.js][nodejs-shield]][nodejs-url]
+* [![jQuery][jquery-shield]][jquery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,6 +120,9 @@ Please head to my portfolio website and use the contact form to reach out to me:
 [html-url]: https://html.spec.whatwg.org/multipage/
 [bootstrap-shield]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com
+[jquery-shield]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com/
+
 
 [portfolio-url]: https://colorlesssaber.github.io/
 [tech-academy-url]: https://www.learncodinganywhere.com/
