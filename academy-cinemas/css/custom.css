@@ -36,6 +36,17 @@ body {
     height: 100px;
 }
 
+/*SHRINK ON SCROLL NAVBAR*/
+.nav-shrink {
+    height: 80px;
+    transition: 0.5s ease;
+}
+
+/*Adds a transition to the movie drop down menu on shrink and scroll*/
+.navbar-collapse {
+    transition: margin-top 0.5s ease;
+}
+
 /*Affects the title in the navbar Academy Cinemas*/
 .navbar-brand {
     color: var(--main-color-accent);
@@ -178,7 +189,7 @@ img{
 }
 
 /*INFO SECTION*/
-.accordion-header {
+.accordion -header {
     font-family: var(--main-font-family);
     font-size: 30px;
 }
@@ -234,6 +245,8 @@ img{
     margin-right: 20px;
     background-color: white;
 }
+
+/*FORM CONTACT*/
 
 .form-select{
     font-family: var(--main-font-family);
